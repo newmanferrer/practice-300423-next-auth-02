@@ -1,0 +1,89 @@
+.container {
+  width: clamp(20rem, 29rem + 1rem, 40rem);
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background-color: black;
+  box-shadow: 2px 2px 2px 2px white;
+
+  &__title {
+    margin-bottom: 0.5rem;
+    color: lightseagreen;
+  }
+
+  &__title_h2 {
+    font-size: 1.5rem;
+  }
+
+  &__input {
+    width: 60%;
+    padding: 0.25rem 0.5rem;
+
+    font-size: 1.2rem;
+    outline: none;
+
+    border: 2px solid transparent;
+    border-radius: 5px;
+
+    &:focus {
+      border-color: lightseagreen;
+    }
+  }
+
+  &__button {
+    width: 25%;
+    margin-top: 1rem;
+    padding: 0.25rem;
+
+    color: white;
+    font-size: 1.2rem;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightseagreen;
+
+    &:hover {
+      cursor: pointer;
+      color: lightseagreen;
+      border-color: lightseagreen;
+      background-color: white;
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &__paragraph {
+    width: 80%;
+    margin-top: 0.75rem;
+
+    text-align: center;
+    color: white;
+  }
+
+  &__link {
+    color: lightseagreen;
+
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      color: green;
+      text-decoration: underline;
+    }
+  }
+}

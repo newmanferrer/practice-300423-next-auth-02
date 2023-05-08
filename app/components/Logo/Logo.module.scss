@@ -1,0 +1,25 @@
+.link {
+  padding: 0.3rem 1rem;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+  transition: all 1s ease-in-out;
+
+  border: 2px solid white;
+  border-radius: 25%;
+  background-color: lightseagreen;
+
+  &:hover {
+    color: lightseagreen;
+    background-color: white;
+    border-color: lightseagreen;
+  }
+}

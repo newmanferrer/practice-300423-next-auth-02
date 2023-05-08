@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+
+  &__ul {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__li {
+    list-style: none;
+    position: relative;
+  }
+
+  &__link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      color: lightseagreen;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+
+  &__section_wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

@@ -1,0 +1,25 @@
+.button {
+  padding: 0.2rem 0.4rem;
+
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  outline: none;
+
+  transition: all 0.5s ease-in-out;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: lightseagreen;
+
+  &:hover {
+    cursor: pointer;
+    color: lightseagreen;
+    border: 1px solid lightseagreen;
+    background-color: white;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
